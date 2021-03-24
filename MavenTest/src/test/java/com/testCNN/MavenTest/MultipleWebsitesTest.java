@@ -1,4 +1,4 @@
-
+//@author Rob Worsham
 package com.testCNN.MavenTest;
 
 import org.openqa.selenium.By;
@@ -36,17 +36,21 @@ public void setup() {
              
        Thread.sleep(5000);
        driver.get("https://www.google.com/");
-      driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[2]/div[1]/div[1]/div/div[2]/input")).sendKeys("Expensive Cars");
+     /*  driver.findElement(By.id("realbox")).sendKeys("Expensive Cars");
+     // driver.findElement(By.xpath("//*[@id=\"input\"]")).sendKeys("Expensive Cars");
       Thread.sleep(8000);
      // driver.navigate().back();
      // Thread.sleep(8000);
-      driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[2]/div[1]/div[1]/div/div[2]/input")).clear();
+      //driver.findElement(By.xpath("//*[@id=\"input\"]")).clear();
+      driver.findElement(By.id("realbox")).clear();
       Thread.sleep(5000);
-       driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[2]/div[1]/div[1]/div/div[2]/input")).sendKeys("drums");
+       //driver.findElement(By.xpath("//*[@id=\"input\"]")).sendKeys("drums");
+       driver.findElement(By.id("realbox")).sendKeys("drums");
        Thread.sleep(5000);
-       driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[2]/div[1]/div[1]/div/div[2]/input")).sendKeys(Keys.RETURN);
+       //driver.findElement(By.xpath("//*[@id=\"input\"]")).sendKeys(Keys.RETURN);
+       driver.findElement(By.id("realbox")).sendKeys(Keys.RETURN);
       // driver.findElement(By.xpath("/html/body/ntp-app//div[1]/ntp-realbox//div/ntp-realbox-icon//div[2]")).click();
-      
+      */
 	        }
 	  @AfterTest
      public void tearDownTest() 

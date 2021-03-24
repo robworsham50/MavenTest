@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="80820" started-at="2021-02-16T22:06:55Z" finished-at="2021-02-16T22:08:15Z">
+  <suite name="Default suite" duration-ms="44656" started-at="2021-03-18T23:05:16Z" finished-at="2021-03-18T23:06:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="80820" started-at="2021-02-16T22:06:55Z" finished-at="2021-02-16T22:08:15Z">
+    <test name="Default test" duration-ms="44656" started-at="2021-03-18T23:05:16Z" finished-at="2021-03-18T23:06:01Z">
       <class name="com.testCNN.MavenTest.MultipleWebsitesTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCNN.MavenTest.MultipleWebsitesTest@52f759d7]" name="setup" is-config="true" duration-ms="5344" started-at="2021-02-16T22:06:55Z" finished-at="2021-02-16T22:07:00Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testCNN.MavenTest.MultipleWebsitesTest@52f759d7]" name="setup" is-config="true" duration-ms="3960" started-at="2021-03-18T23:05:16Z" finished-at="2021-03-18T23:05:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="multipleWebsitesTest()[pri:0, instance:com.testCNN.MavenTest.MultipleWebsitesTest@52f759d7]" name="multipleWebsitesTest" duration-ms="70228" started-at="2021-02-16T22:07:00Z" finished-at="2021-02-16T22:08:10Z">
+        <test-method status="PASS" signature="multipleWebsitesTest()[pri:0, instance:com.testCNN.MavenTest.MultipleWebsitesTest@52f759d7]" name="multipleWebsitesTest" duration-ms="35420" started-at="2021-03-18T23:05:20Z" finished-at="2021-03-18T23:05:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multipleWebsitesTest -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.testCNN.MavenTest.MultipleWebsitesTest@52f759d7]" name="tearDownTest" is-config="true" duration-ms="5177" started-at="2021-02-16T22:08:10Z" finished-at="2021-02-16T22:08:15Z">
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.testCNN.MavenTest.MultipleWebsitesTest@52f759d7]" name="tearDownTest" is-config="true" duration-ms="5220" started-at="2021-03-18T23:05:55Z" finished-at="2021-03-18T23:06:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->

@@ -13,7 +13,16 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.httpcomponents</groupId>
+				<artifactId>httpclient</artifactId>
+				<version>4.5.13</version>
+			</plugin>
+		</plugins>
 
+	</build>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -42,16 +51,15 @@
 			<artifactId>webdrivermanager</artifactId>
 			<version>4.3.1</version>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-<dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>7.3.0</version>
-    <scope>test</scope>
-</dependency>
-		
-		
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.3.0</version>
+			<scope>test</scope>
+		</dependency>
 
 	</dependencies>
+	
 </project>
